@@ -6,8 +6,8 @@
 ## Introducción
 En esta práctica llevaremos a cabo la instalación y configuración del entorno de desarrollo Visual Studio Code. Además de la realización de un primer proyecto en TypeScript.  
 
-## Instalación y funcionalidad de Visual Studio Code
-Visual Studio Code (VSCode) es uno de los entornos más utilizados por los desarrolladores. Como primer paso, vamos a instalar VSCode en nuestra máquina local. Si está trabajando en una distribución Linux Debian/Ubuntu puede instalarlo haciendo uso del siguiente comando:
+## Instalación Visual Studio Code
+Vamos a instalar VSCode en nuestra máquina local. Si estamos trabajando en una distribución Linux Debian/Ubuntu podemos instalarlo haciendo uso del siguiente comando:
 ```
 andrea@andrea-laptop:~$ sudo apt install code
 ```  
@@ -23,8 +23,8 @@ En caso de no saber instalar una extensión realizamos los siguientes pasos: den
 
 A continuación en el VSCode, pulsamos sobre la tecla *F1* o la combinación de teclas *Ctrl + Shift + P* para mostrar la paleta de comandos, introducimos *ssh* y
 pulsamos en *Remote-SSH: Connect to Host...*, ahí nos debería salir el nombre del host (en mi caso, iaas-dsi35) que habíamos configurado previamente en la práctica 1, pulsamos sobre el nombre y si todo ha ido bien, se conectará a nuestra máquina local. En caso de no haberlo configurado y no aparezca el nombre del host, entre a la [práctica 1](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-alu0101119137/blob/main/index.md) y realice el apartado 8.
-En la siguiente imagen muestro lo que debería salir en la barra inferior del VSCode en caso de que esté conectado a la máquina virtual:
-
+En la siguiente imagen muestro lo que debería salir en la barra inferior del VSCode en caso de que esté conectado a la máquina virtual:  
+![SSH en VSCode](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct02-vscode-andrea2804/blob/main/img/Ssh_vsc.png)
 
 
 ## Sesiones colaborativas con Visual Studio Live Share
