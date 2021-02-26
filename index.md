@@ -36,6 +36,22 @@ A continuación, adjunto algunas imágenes de cómo se vería el modo colaborati
 
 ## Introducción a TypeScript
 En este apartamos vamos a realizar nuestro primer proyecto en Typescript, en primer lugar tenemos que instalar la extensión del VSCode *ESLint* que nos permite realizar comprobaciones de estilo sobre ficheros que incluyen código fuente en JavaScript y TypeScript, para instalarla hacemos como hicimos en los apartados anteriores buscando en el buscador de extensiones del VSCode.  
-A continuación,
+
+A continuación, vamos a instalar el compilador de TypeScript en nuestra máquina virtual. Para ello, abrimos una terminal en el propio VSCode, pulsando F1 y ejecutamos el comando siguiente:
+```
+
+```
+Ahora que ya hemos instalado el compilador de Typescript, podemos empezar a crear nuestro primer proyecto. Vamos a crear un directorio llamado *hello-world* y accedemos a él, dentro de este ejecutaremos un comando que creará un fichero *package.json* que se utiliza para establecer las dependencias de desarrollo y ejecución del proyecto. Lo realizamos mediante los siguientes comandos:
+```
+
+``` 
+Como ya tenemos el proyecto inicializado, ahora procedemos a abrir el proyecto en nuestro entorno de trabajo del VSCode . Para realizar esto, pulsamos sobre *File* y luego en *Open Folder*, seleccionamos la que acabamos de crear (hello-world) y ya tendríamos abierto nuestro proyecto, lo que nos permitirá visualizar el contenido de este. 
+
+Una vez abierto el proyecto, vamos a crear un fichero llamado *tsconfig.json* dentro de nuestro directorio *hello-world* en el que de especificarán las opciones del compilador de TypeScript. 
+```
+
+```
+Al introducir los datos anteriores en el fichero lo que significa es mediante *target*
+
 ## Conclusión
 ## Bibliografía
