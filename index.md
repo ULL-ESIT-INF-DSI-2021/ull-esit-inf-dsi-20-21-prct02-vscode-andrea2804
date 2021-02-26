@@ -28,6 +28,10 @@ En la siguiente imagen muestro lo que debería salir en la barra inferior del VS
 
 ## Sesiones colaborativas con Visual Studio Live Share  
 En este apartado vamos a configurar el modo Live Share de VSCode, ya que sirve para el trabajo colaborativo entre varias personas. Este modo nos permite hacer proyectos en conjunto en tiempo real, además tiene un chat propio, se pueden hacer llamadas, compartir la terminal del proyecto y varias cosas más. Para más información sobre este modo colaborativo, podemos acceder a la página web de VSCode, [Collaborate with Live Share](https://code.visualstudio.com/learn/collaboration/live-share).  
+Para configurarlo, lo único que tenemos que hacer es descargar la extensión *Live Share Extension Pack*, una vez instalada nos aparecerá el símbolo de una flecha con un punto en la barra lateral izquieda del VSCode. Ese es el símbolo de la extensión *Live Share*, por lo que cuando querramos utilizarla tendremos que pinchar en él.  
+Para comenzar una sesión colaborativa tendremos que iniciar sesión con Hotmail o con Github. Una vez iniciada la sesión, en la parte de detalles de la sesión, le damos a invitar participantes y nos copia un link en el portapapeles, por lo que lo único que se tendría que hacer es pasarle el link a las personas que querramos invitar, también permite agregar amigos para invitarlos sin tener que pasar el link en la parte de contactos. Para saber más información de todas sus funcionalidades, acceder a la página web [Collaborate with Live Share](https://code.visualstudio.com/learn/collaboration/live-share).  
+A continuación, adjunto algunas imágenes de cómo se vería el modo colaborativo en VSCode.  
+
 ## Primer proyecto en TypeScript: “Hola Mundo”
 ## Conclusión
 ## Bibliografía
