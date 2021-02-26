@@ -27,7 +27,7 @@ En la siguiente imagen muestro lo que debería salir en la barra inferior del VS
 ![SSH en VSCode](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct02-vscode-andrea2804/main/img/Ssh_vsc.png?token=ALBLY3GP3A4T3O36GUEJH7DAID4AM)  
 
 ## Sesiones colaborativas con Visual Studio Live Share  
-En este apartado vamos a configurar el modo Live Share de VSCode, ya que sirve para el trabajo colaborativo entre varias personas. Este modo
+En este apartado vamos a configurar el modo Live Share de VSCode, ya que sirve para el trabajo colaborativo entre varias personas. Este modo nos permite hacer proyectos en conjunto en tiempo real, además tiene un chat propio, se pueden hacer llamadas, compartir la terminal del proyecto y varias cosas más. Para más información sobre este modo colaborativo, podemos acceder a la página web de VSCode, [Collaborate with Live Share](https://code.visualstudio.com/learn/collaboration/live-share).  
 ## Primer proyecto en TypeScript: “Hola Mundo”
 ## Conclusión
 ## Bibliografía
