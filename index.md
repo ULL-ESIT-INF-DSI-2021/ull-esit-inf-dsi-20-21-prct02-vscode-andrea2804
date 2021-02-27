@@ -88,7 +88,7 @@ Una vez abierto el proyecto, vamos a crear un fichero llamado *tsconfig.json* de
   }
 }
 ```
-Los datos introducidos anteriormente en el fichero significan que mediante *"target"* queremos generar código compatible con uno de los últimos estándares de JavaScript, con *"outDir"* indicamos que el código JavaScript se almacenará en un directorio *dist*, *"rootDir"* indica que el código fuente escrito en TypeScript se va a encontrar en el directorio *src* y por último con *"module"* especificaremos un estándar para cargar código desde ficheros independientes.  
+Los datos introducidos anteriormente en el fichero significan que mediante *"target"* queremos generar código compatible con uno de los últimos estándares de JavaScript, con *"outDir"* indicamos que el código JavaScript se almacenará en un directorio *dist*, *"rootDir"* indica que el código fuente escrito en TypeScript se va a encontrar en el directorio *src* y por último, con *"module"* especificaremos un estándar para cargar código desde ficheros independientes.  
 
 A continuación, vamos a crear un fichero con código TypeScript dentro de un directorio que crearemos y llamaremos *src*, una vez creado, accedemos a ese directorio y creamos el fichero TypeScript llamado *index.ts*. Ahora, dentro del fichero añadimos el código necesario para hacer un *Hello World*. Todo esto lo haremos ejecutando los siguientes comandos:
 ```
