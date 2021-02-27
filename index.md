@@ -119,6 +119,16 @@ Para finalizar el proyecto, ejecutaremos el código JavaScript generado a partir
 [~/hello-world()]$node dist/index.js
 Hola Mundo
 ```
-
 ## Conclusión
+La realización de esta práctica me resultó bastante sencilla por el hecho de que he trabajado varios años con VSCode y he utilizado la extensión Live Share bastante amenudo. A día de hoy me parece el mejor entorno para desarrollar y lo utilizo diariamente. En cambio, la instalación y uso de TypeScript no la había realizado nunca porque no he trabajado con él, pero con el guión de prácticas me resultó muy sencillo e intuitivo realizar todos los pasos, por lo que no tuve ninguna dificultad a la hora de realizar la práctica.
+
 ## Bibliografía
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Guión Práctica 2]()
+- [Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery)
+- [SSH en VSCode](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct02-vscode-andrea2804/main/img/Ssh_vsc.png?token=ALBLY3GP3A4T3O36GUEJH7DAID4AM)  
+- [Live Share en VSCode](https://code.visualstudio.com/learn/collaboration/live-share)  
+- [Introducción TypeScript](https://www.typescriptlang.org/)
+- [Libro Essential TypeScript: From Beginner to Pro](https://www.oreilly.com/library/view/essential-typescript-from/9781484249796/html/Part_1.xhtml)
+- [Configurar proyecto con TypeScript](https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript-es) 
+
