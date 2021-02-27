@@ -22,7 +22,8 @@ Una vez comprobado que hemos podido realizar la conexión, abrimos el VSCode e i
 En caso de no saber instalar una extensión realizamos los siguientes pasos: dentro del VSCode vamos a la barra lateral izquierda y buscamos un símbolo con cuatro cuadrados pequeños juntos, pinchamos ahí y nos sale un buscador en el que pondremos el nombre de la extensión que queremos y nos aparecerá el nombre de la extensión y un pequeño botón de instalar, lo pulsamos y ya tendríaos la extensión instalada. En algunos casos, sale una ventana emergente del VSCode de que tiene que reiniciarse para poder utilizar esa extensión, le damos a reiniciar y ya tendríamos la extensión que queremos. En caso de querer más información vamos a la página web de VSCode que lo explica, [Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery).  
 
 A continuación en el VSCode, pulsamos sobre la tecla *F1* o la combinación de teclas *Ctrl + Shift + P* para mostrar la paleta de comandos, introducimos *ssh* y
-pulsamos en *Remote-SSH: Connect to Host...*, ahí nos debería salir el nombre del host (en mi caso, iaas-dsi35) que habíamos configurado previamente en la práctica 1, pulsamos sobre el nombre y si todo ha ido bien, se conectará a nuestra máquina local. En caso de no haberlo configurado y no aparezca el nombre del host, entre a la [práctica 1](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-alu0101119137/blob/main/index.md) y realice el apartado 8.
+pulsamos en *Remote-SSH: Connect to Host...*, ahí nos debería salir el nombre del host (en mi caso, iaas-dsi35) que habíamos configurado previamente en la práctica 1, pulsamos sobre el nombre y si todo ha ido bien, se conectará a nuestra máquina local. En caso de no haberlo configurado y no aparezca el nombre del host, entre a la [práctica 1](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-alu0101119137/blob/main/index.md) y realice el apartado 8. En el caso de querer más información sobre SSH en VSCode, acceda a [este enlace](https://code.visualstudio.com/docs/remote/ssh).  
+
 En la siguiente imagen muestro lo que debería salir en la barra inferior del VSCode en caso de que esté conectado a la máquina virtual:  
 ![SSH en VSCode](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct02-vscode-andrea2804/main/img/Ssh_vsc.png?token=ALBLY3GP3A4T3O36GUEJH7DAID4AM)  
 
@@ -126,7 +127,7 @@ La realización de esta práctica me resultó bastante sencilla por el hecho de 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Guión Práctica 2](https://ull-esit-inf-dsi-2021.github.io/prct02-vscode/)
 - [Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery)
-- [SSH en VSCode](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct02-vscode-andrea2804/main/img/Ssh_vsc.png?token=ALBLY3GP3A4T3O36GUEJH7DAID4AM)  
+- [SSH en VSCode](https://code.visualstudio.com/docs/remote/ssh)  
 - [Live Share en VSCode](https://code.visualstudio.com/learn/collaboration/live-share)  
 - [Introducción TypeScript](https://www.typescriptlang.org/)
 - [Libro Essential TypeScript: From Beginner to Pro](https://www.oreilly.com/library/view/essential-typescript-from/9781484249796/html/Part_1.xhtml)
