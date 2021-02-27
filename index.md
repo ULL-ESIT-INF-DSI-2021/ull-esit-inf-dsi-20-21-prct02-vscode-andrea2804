@@ -39,37 +39,85 @@ En este apartamos vamos a realizar nuestro primer proyecto en Typescript, en pri
 
 A continuación, vamos a instalar el compilador de TypeScript en nuestra máquina virtual. Para ello, abrimos una terminal en el propio VSCode, pulsando F1 y ejecutamos el comando siguiente:
 ```
+[~()]$npm install --global typescript
 
+changed 1 package, and audited 2 packages in 3s
+
+found 0 vulnerabilities
 ```
 Ahora que ya hemos instalado el compilador de Typescript, podemos empezar a crear nuestro primer proyecto. Vamos a crear un directorio llamado *hello-world* y accedemos a él, dentro de este ejecutaremos un comando que creará un fichero *package.json* que se utiliza para establecer las dependencias de desarrollo y ejecución del proyecto. Lo realizamos mediante los siguientes comandos:
 ```
+[~()]$mkdir hello-world
+[~()]$cd hello-world/
+[~/hello-world()]$npm init --yes
+Wrote to /home/usuario/hello-world/package.json:
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
 
+[~/hello-world()]$ls -lrtha
+total 24K
+drwxrwxr-x  4 usuario usuario 4,0K feb 23 19:24 .
+drwxr-xr-x 11 usuario usuario 4,0K feb 24 10:49 ..
+-rw-rw-r--  1 usuario usuario  225 feb 27 12:41 package.json
 ``` 
-Como ya tenemos el proyecto inicializado, ahora procedemos a abrir el proyecto en nuestro entorno de trabajo del VSCode . Para realizar esto, pulsamos sobre *File* y luego en *Open Folder*, seleccionamos la que acabamos de crear (hello-world) y ya tendríamos abierto nuestro proyecto, lo que nos permitirá visualizar el contenido de este. 
+Con el último comando comprobamos el contenido de nuestro directorio *hello-world* y podemos observar que efectivamente se ha creado el fichero.  
+
+Como ya tenemos el proyecto inicializado, ahora procedemos a abrir el proyecto en nuestro entorno de trabajo del VSCode . Para realizar esto, pulsamos sobre *File* y luego en *Open Folder*, seleccionamos el directorio que acabamos de crear (hello-world) y ya tendríamos abierto nuestro proyecto, lo que nos permitirá visualizar el contenido de este.  
 
 Una vez abierto el proyecto, vamos a crear un fichero llamado *tsconfig.json* dentro de nuestro directorio *hello-world* en el que de especificarán las opciones del compilador de TypeScript. 
 ```
-
+[~/hello-world()]$touch tsconfig.json 
+[~/hello-world()]$cat tsconfig.json 
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "CommonJS"
+  }
+}
 ```
 Los datos introducidos anteriormente en el fichero significan que mediante *"target"* queremos generar código compatible con uno de los últimos estándares de JavaScript, con *"outDir"* indicamos que el código JavaScript se almacenará en un directorio *dist*, *"rootDir"* indica que el código fuente escrito en TypeScript se va a encontrar en el directorio *src* y por último con *"module"* especificaremos un estándar para cargar código desde ficheros independientes.  
 
 A continuación, vamos a crear un fichero con código TypeScript dentro de un directorio que crearemos y llamaremos *src*, una vez creado, accedemos a ese directorio y creamos el fichero TypeScript llamado *index.ts*. Ahora, dentro del fichero añadimos el código necesario para hacer un *Hello World*. Todo esto lo haremos ejecutando los siguientes comandos:
 ```
-
+[~/hello-world()]$mkdir src
+[~/hello-world()]$cd src/
+[~/hello-world/src()]$touch index.ts
+[~/hello-world/src()]$vim index.ts 
+  let myString: string = "Hola Mundo";
+  console.log(myString);
 ```
 Para compilar el código anterior, solo tenemos que escribir el siguiente comando en la terminal de VSCode:
 ```
-
+[~/hello-world/src()]$tsc
 ```
 
-Una vez ejecutado el comando anterior, habrá creado el directorio dist y el fichero index.js automáticamente. Los podemos comprobar para ver si hay alguna diferencia entre el creado autómaticamente (.js) y el creado por nosotros anteriormente (.ts) de la siguiente forma:
+Una vez ejecutado el comando anterior, habrá creado el directorio *dist* y el fichero *index.js* automáticamente. Los podemos comprobar para ver si hay alguna diferencia entre el creado autómaticamente (.js) y el creado por nosotros anteriormente (.ts) de la siguiente forma:
+```
+[~/hello-world()]$diff src/index.ts dist/index.js
+1c1
+< let myString: string = "Hola Mundo";
+---
+> let myString = "Hola Mundo";
 ```
 
-```
+Que cómo podemos observar, los códigos son casi iguales exceptuando la declaración de la variable *myString*.  
 
-Que cómo podemos observar, los códigos son casi iguales exceptuando la declaración de la variable *myString*.
 Para finalizar el proyecto, ejecutaremos el código JavaScript generado a partir del código TypeScript:
 ```
+[~/hello-world()]$node dist/index.js
+Hola Mundo
 ```
 
 ## Conclusión
