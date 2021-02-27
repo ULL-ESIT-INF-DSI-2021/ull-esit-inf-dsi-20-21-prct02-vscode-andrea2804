@@ -124,7 +124,7 @@ La realización de esta práctica me resultó bastante sencilla por el hecho de 
 
 ## Bibliografía
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Guión Práctica 2]()
+- [Guión Práctica 2](https://ull-esit-inf-dsi-2021.github.io/prct02-vscode/)
 - [Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery)
 - [SSH en VSCode](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct02-vscode-andrea2804/main/img/Ssh_vsc.png?token=ALBLY3GP3A4T3O36GUEJH7DAID4AM)  
 - [Live Share en VSCode](https://code.visualstudio.com/learn/collaboration/live-share)  
